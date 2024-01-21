@@ -11,7 +11,7 @@ build:
     image_template: postgres_master-13.3
     
 deploy:
-    context: krishnaja-1/DEV
+    context: Krishnaja-1/DEV
     type: statefulset
     replicas: 1
     port:
